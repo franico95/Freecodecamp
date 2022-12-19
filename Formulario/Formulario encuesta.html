@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<Header>
+  <h1 id="title">Compra de  Motorola</h1>
+</header>
+<link rel="stylesheet" href="C:\Users\frani\OneDrive\Documentos\FRANCISCO\PROYECTOS PROGRAMACION\Stile.css">
+
+<Body>
+  <p id="description">
+Complete los detalles a continuación para completar su pedido de celular Motorola
+</p>
+
+<form id="survey-form">
+  <div class="input-headings">
+
+    <label for="name" id="name-label"> Nombre </label>
+    <input id="name" type="text" name="name" placeholder="Introduzca nombre" class="form-inputs" required> </input>
+    <br>
+    <label for="email" id="email-label"> E-mail </label>
+    <input id="email" type="email" name="email" placeholder="algo@outlook.es" class="form-inputs" required> </input>
+    <br>
+    <label for="number" id="number-label"> Edad </label>
+    <input id="number" type="number" name="number" min="18" max="90" placeholder="18" class="form-inputs" required> </input>
+    <br>
+    <label for="dropdown" id="model" style="width: 90vw;" > Select model </label>
+    <select id="dropdown">
+      <option value = "Moto E32"> Moto E32</option>
+      <option value = "Moto G22"> Moto G22</option>
+      <option value = "Moto G60"> Moto G60</option>
+      <option value = "Moto G51"> Moto G51</option>
+      <option value = "Moto G71"> Moto G71</option>
+</select>
+<br>
+<br>
+<label for="model_color" id="model_color"> <b>Modelo color:</b> </label>
+<br>
+<input id="model_color" type="radio" name="color" value="Negro">
+  <label for="model_color"> Negro </label>
+  <br>
+  <input id="model_color" type="radio" name="color" value="Rojo">
+    <label for="model_color">  Rojo </label>
+    <br>
+    <input id="model_color" type="radio" name="color" value="Azul">
+      <label for="model_color"> Azul </label>
+<br>
+<br>
+<label for="caracteristicas"><b>Caracteristicas adicionales</b></label>
+<br>
+<input id="checkbox" type="checkbox" name="caracteristicas" value="Memoria Ram">
+<label for="checkbox">Memoria Ram 256- $70,000</label>
+<br>
+<input id="checkbox" type="checkbox" name="caracteristicas" value="Pantalla Grande">
+<label for="checkbox">Pantalla Grande- $80,000</label>
+<br>
+<input id="checkbox" type="checkbox" name="caracteristicas" value="Ultra definicion">
+<label for="checkbox">Ultra definicion- $90,000</label>
+
+<br>
+<br>
+<label id="textarea">Comentarios Adicionales</label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"/></textarea>
+<br>
+<input id="submit" type="submit" value="Tomar Orden" class="submit-button">
+</div>
+</form>
+</body>
+</html>
